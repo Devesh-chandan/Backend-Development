@@ -1,0 +1,22 @@
+body {
+  background:darkgrey;
+}
+
+.post{
+    background-color:lightyellow;
+
+
+}
+
+h1{
+    color:maroon;
+
+}
+h4{
+    color:brown;
+
+}
+.username{
+  font-style:italic;
+
+}

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Edit Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>This is Edit page</h1>
+    <h2>editing the user <%=user.email %></h2>
+    <form method="post" action="/users/<%= user.id%>?_method=PATCH">
+      <textarea name="username"> <%=user.username%></textarea>
+      <input type="password" name="password" placeholder="enter password" />
+      <button>Edit username</button>
+    </form>
+
+    <script src="index.js"></script>
+  </body>
+</html>
